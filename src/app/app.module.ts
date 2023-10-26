@@ -14,8 +14,10 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 
 import { CourseDetailsComponent } from './pages/course-details/course-details.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
+
 import { CourseComponent } from './pages/course/course.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 
 
@@ -30,7 +32,11 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     PageNotFoundComponent,
     CourseDetailsComponent,
     NavbarComponent,
-    CourseComponent
+    CourseComponent,
+    CourseComponent,
+    CourseDetailsComponent,
+    NavbarComponent
+
   ],
   imports: [
     BrowserModule,
