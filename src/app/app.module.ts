@@ -10,10 +10,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './layouts/footer/footer.component';
-import { PageNotFoundComponent } from './layouts/page-not-found/page-not-found.component';
-import { CourseComponent } from './pages/course/course.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+
 import { CourseDetailsComponent } from './pages/course-details/course-details.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
+import { CourseComponent } from './pages/course/course.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
+
 
 @NgModule({
   declarations: [
@@ -24,14 +28,15 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
     ContactComponent,
     FooterComponent,
     PageNotFoundComponent,
-    CourseComponent,
     CourseDetailsComponent,
-    NavbarComponent
+    NavbarComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
