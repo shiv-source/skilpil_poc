@@ -3,7 +3,8 @@ export const coursesSchema: any[] = [
         id: 1,
         image: 'assets/images/courses/course-img-3.jpg',
         title: 'Web Development',
-        duration: '30-90 Hours Program'
+        duration: '30-90 Hours Program',
+        description:"I recently enrolled in a C++ course from Skill Pill, and I am thoroughly impressed with the comprehensive content and engaging teaching methods. The course material is well-structured, and the instructors are incredibly knowledgeable. Skill Pill's user-friendly platform made my learning experience seamless, and the interactive approach helped me grasp complex concepts easily. I highly recommend Skill Pill to anyone seeking quality education and a supportive learning environment.",
     },
     {
         id: 2,
